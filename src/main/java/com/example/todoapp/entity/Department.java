@@ -9,9 +9,9 @@ import jakarta.persistence.Id;
 public class Department {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)//  alanın değeri otomatik üretilecek
+    @GeneratedValue(strategy = GenerationType.IDENTITY)//
 
-    private Long id;// Bu alan Primary Key
+    private Long id;
 
     private String name;
 
